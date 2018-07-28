@@ -1,0 +1,935 @@
+/* Old Fonts for deprecated Text Styles */
+
+@font-face {
+  font-family: TiemposHeadline;
+  src: url("TiemposHeadlineWeb/TiemposHeadlineWeb-Light.eot"); /* IE9 Compat Modes */
+  src: url("TiemposHeadlineWeb/TiemposHeadlineWeb-Lightd41d.eot?#iefix") format('embedded-opentype'), /* IE6-IE8 */
+       url("TiemposHeadlineWeb/TiemposHeadlineWeb-Light.woff2") format('woff2'), /* Super Modern Browsers */
+       url("TiemposHeadlineWeb/TiemposHeadlineWeb-Light.woff") format('woff') /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: SFDisplayHeavy;
+  src: url("SF-UI-Display-Heavy.otf");
+}
+
+@font-face {
+  font-family: SFDisplaySemibold;
+  src: url("SF-UI-Display-Semibold.otf");
+}
+
+@font-face {
+  font-family: SFTextRegular;
+  src: url("SF-UI-Text-Regular.otf");
+}
+
+@font-face {
+  font-family: SyncopateBold;
+  src: url("syncopate-bold.ttf");
+}
+
+@font-face {
+  font-family: TiemposText;
+  src: url("TiemposTextWeb/TiemposTextWeb-Regular.eot"); /* IE9 Compat Modes */
+  src: url("TiemposTextWeb/TiemposTextWeb-Regulard41d.eot?#iefix") format('embedded-opentype'), /* IE6-IE8 */
+       url("TiemposTextWeb/TiemposTextWeb-Regular.woff2") format('woff2'), /* Super Modern Browsers */
+       url("TiemposTextWeb/TiemposTextWeb-Regular.woff") format('woff') /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: Respira;
+  src: url("Respira-Black.otf");
+}
+
+/* Legacy Font Support */
+
+@font-face {
+  font-family: TiemposWebHeadline-Light;
+  src: url("TiemposHeadlineWeb/TiemposHeadlineWeb-Light.eot"); /* IE9 Compat Modes */
+  src: url("TiemposHeadlineWeb/TiemposHeadlineWeb-Lightd41d.eot?#iefix") format('embedded-opentype'), /* IE6-IE8 */
+       url("TiemposHeadlineWeb/TiemposHeadlineWeb-Light.woff2") format('woff2'), /* Super Modern Browsers */
+       url("TiemposHeadlineWeb/TiemposHeadlineWeb-Light.woff") format('woff') /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: TiemposText-Regular;
+  src: url("TiemposTextWeb/TiemposTextWeb-Regular.eot"); /* IE9 Compat Modes */
+  src: url("TiemposTextWeb/TiemposTextWeb-Regulard41d.eot?#iefix") format('embedded-opentype'), /* IE6-IE8 */
+       url("TiemposTextWeb/TiemposTextWeb-Regular.woff2") format('woff2'), /* Super Modern Browsers */
+       url("TiemposTextWeb/TiemposTextWeb-Regular.woff") format('woff') /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: SFUIText;
+  src: url("fonts/SFUIText/SF-UI-Text-Regular.otf");
+}
+
+@font-face {
+  font-family: Alegreya-Black;
+  src: url("fonts/Alegreya/Alegreya-Black.ttf");
+}
+
+@font-face {
+  font-family: Alegreya-BlackItalic;
+  src: url("fonts/Alegreya/Alegreya-BlackItalic.ttf");
+}
+
+@font-face {
+  font-family: Alegreya-Bold;
+  src: url("fonts/Alegreya/Alegreya-Bold.ttf");
+}
+
+@font-face {
+  font-family: Alegreya-BoldItalic;
+  src: url("fonts/Alegreya/Alegreya-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: Alegreya-Italic;
+  src: url("fonts/Alegreya/Alegreya-Italic.ttf");
+}
+
+@font-face {
+  font-family: Alegreya-Regular;
+  src: url("fonts/Alegreya/Alegreya-Regular.ttf");
+}
+
+@font-face {
+  font-family: SpaceMono-Bold;
+  src: url("fonts/Space_Mono/SpaceMono-Bold.ttf");
+}
+
+@font-face {
+  font-family: SpaceMono-BoldItalic;
+  src: url("fonts/Space_Mono/SpaceMono-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: SpaceMono-Italic;
+  src: url("fonts/Space_Mono/SpaceMono-Italic.ttf");
+}
+
+@font-face {
+  font-family: SpaceMono-Regular;
+  src: url("fonts/Space_Mono/SpaceMono-Regular.ttf");
+}
+
+@font-face {
+  font-family: HelveticaNeueLTStd-BdCn;
+  src: url("fonts/Headline/Universe%20-%20HelveticaNeueLTStd-BdCn.otf");
+}
+
+@font-face {
+  font-family: HelveticaNeueLTStd-BdCnO;
+  src: url("fonts/Headline/Universe%20-%20HelveticaNeueLTStd-BdCnO.otf");
+}
+
+@font-face {
+  font-family: HelveticaNeueLTStd-HvCn;
+  src: url("fonts/Headline/Universe%20-%20HelveticaNeueLTStd-HvCn.otf");
+}
+
+@font-face {
+  font-family: HelveticaNeueLTStd-HvCnO;
+  src: url("fonts/Headline/Universe%20-%20HelveticaNeueLTStd-HvCnO.otf");
+}
+
+@font-face {
+  font-family: HelveticaNeueLTStd-Md;
+  src: url("fonts/Light/Universe%20-%20HelveticaNeueLTStd-Md.otf");
+}
+
+@font-face {
+  font-family: HelveticaNeueLTStd-MdIt;
+  src: url("fonts/Light/Universe%20-%20HelveticaNeueLTStd-MdIt.otf");
+}
+
+@font-face {
+  font-family: HelveticaNeueLTStd-Th;
+  src: url("fonts/Light/Universe%20-%20HelveticaNeueLTStd-Th.otf");
+}
+
+@font-face {
+  font-family: HelveticaNeueLTStd-ThIt;
+  src: url("fonts/Light/Universe%20-%20HelveticaNeueLTStd-ThIt.otf");
+}
+
+@font-face {
+  font-family: Neucha;
+  src: url("fonts/Notebook/Neucha.ttf")
+}
+
+
+/* New Fonts */
+
+/* @font-face {
+  font-family: AUTHENTICSans-Regular;
+  src: url('/assets/Sneak-Regular.eot');
+  src: url('/assets/Sneak-Regular.eot#iefix') format('embedded-opentype'),
+       url('/assets/Sneak-Regular.woff2') format('woff2'),
+       url('/assets/Sneak-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: AUTHENTICSans-Regular;
+  src: url('fonts/AUTHENTIC_Sans/AUTHENTIC-Sans.woff2') format('woff2'),
+       url('fonts/AUTHENTIC_Sans/AUTHENTIC-Sans.woff') format('woff');
+}
+
+@font-face {
+  font-family: IBMPlexMono;
+  src: url('fonts/IBM_Plex_Mono/IBMPlexMono-Regular.woff2') format('woff2'),
+       url('fonts/IBM_Plex_Mono/IBMPlexMono-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: Junicode-Regular;
+  src: url('fonts/Junicode/junicode-regular-webfont.woff2') format('woff2'),
+       url('fonts/Junicode/junicode-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: Junicode-BoldCondensed;
+  src: url('fonts/Junicode/junicode-boldcondensed-webfont.woff2') format('woff2'),
+       url('fonts/Junicode/junicode-boldcondensed-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: LeagueGothic-Regular;
+  src: url('fonts/League_Gothic/leaguegothic-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: IndieFlower;
+  src: url('fonts/Indie_Flower/IndieFlower.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: CooperHewitt-Bold;
+  src: url('fonts/CooperHewitt/CooperHewitt-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: YoungSerif-Regular;
+  src: url('fonts/YoungSerif/YoungSerif-Regular.woff2') format('woff2'),
+       url('fonts/YoungSerif/YoungSerif-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: Wremena;
+  src: url('fonts/Wremena/Wremena-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: BungeeShade-Regular;
+  src: url("fonts/Bungee_Shade/BungeeShade-Regular.ttf");
+}
+
+@font-face {
+  font-family: Optima;
+  src: url("fonts/Optima/Optima.ttf");
+}
+
+@font-face {
+  font-family: PermanentMarker;
+  src: url("fonts/Permanent_Marker/PermanentMarker.ttf");
+}
+
+@font-face {
+  font-family: Rubik-Black;
+  src: url("fonts/Rubik/Rubik-Black.ttf");
+}
+
+@font-face {
+  font-family: Rubik-BlackItalic;
+  src: url("fonts/Rubik/Rubik-BlackItalic.ttf");
+}
+
+@font-face {
+  font-family: Rubik-Bold;
+  src: url("fonts/Rubik/Rubik-Bold.ttf");
+}
+
+@font-face {
+  font-family: Rubik-BoldItalic;
+  src: url("fonts/Rubik/Rubik-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: Rubik-Italic;
+  src: url("fonts/Rubik/Rubik-Italic.ttf");
+}
+
+@font-face {
+  font-family: Rubik-Light;
+  src: url("fonts/Rubik/Rubik-Light.ttf");
+}
+
+@font-face {
+  font-family: Rubik-LightItalic;
+  src: url("fonts/Rubik/Rubik-LightItalic.ttf");
+}
+
+@font-face {
+  font-family: Rubik-Medium;
+  src: url("fonts/Rubik/Rubik-Medium.ttf");
+}
+
+@font-face {
+  font-family: Rubik-MediumItalic;
+  src: url("fonts/Rubik/Rubik-MediumItalic.ttf");
+}
+
+@font-face {
+  font-family: Rubik-Regular;
+  src: url("fonts/Rubik/Rubik-Regular.ttf");
+}
+
+@font-face {
+  font-family: VT323-Regular;
+  src: url("fonts/VT323/VT323-Regular.ttf");
+}
+
+@font-face {
+  font-family: ZillaSlab-Bold;
+  src: url("fonts/Zilla_Slab/ZillaSlab-Bold.ttf");
+}
+
+@font-face {
+  font-family: ZillaSlab-BoldItalic;
+  src: url("fonts/Zilla_Slab/ZillaSlab-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: ZillaSlab-Italic;
+  src: url("fonts/Zilla_Slab/ZillaSlab-Italic.ttf");
+}
+
+@font-face {
+  font-family: ZillaSlab-Light;
+  src: url("fonts/Zilla_Slab/ZillaSlab-Light.ttf");
+}
+
+@font-face {
+  font-family: ZillaSlab-LightItalic;
+  src: url("fonts/Zilla_Slab/ZillaSlab-LightItalic.ttf");
+}
+
+@font-face {
+  font-family: ZillaSlab-Medium;
+  src: url("fonts/Zilla_Slab/ZillaSlab-Medium.ttf");
+}
+
+@font-face {
+  font-family: ZillaSlab-MediumItalic;
+  src: url("fonts/Zilla_Slab/ZillaSlab-MediumItalic.ttf");
+}
+
+@font-face {
+  font-family: ZillaSlab-Regular;
+  src: url("fonts/Zilla_Slab/ZillaSlab-Regular.ttf");
+}
+
+@font-face {
+  font-family: ZillaSlab-SemiBold;
+  src: url("fonts/Zilla_Slab/ZillaSlab-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: ZillaSlab-SemiBoldItalic;
+  src: url("fonts/Zilla_Slab/ZillaSlab-SemiBoldItalic.ttf");
+}
+
+@font-face {
+  font-family: Respira-Black;
+  src: url("Respira-Black.otf");
+}
+
+@font-face {
+  font-family: Syncopate-Bold;
+  src: url("fonts/Wideface.ttf");
+}
+
+@font-face {
+  font-family: NotoSerif;
+  src: url("fonts/Noto_Serif/NotoSerif-Regular.ttf");
+}
+
+@font-face {
+  font-family: NotoSerif-Bold;
+  src: url("fonts/Noto_Serif/NotoSerif-Bold.ttf");
+}
+
+@font-face {
+  font-family: NotoSerif-BoldItalic;
+  src: url("fonts/Noto_Serif/NotoSerif-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: NotoSerif-Italic;
+  src: url("fonts/Noto_Serif/NotoSerif-Italic.ttf");
+}
+
+@font-face {
+  font-family: SFUIDisplay;
+  src: url("fonts/SFUIText/SF-UI-Text-Regular.otf");
+}
+
+@font-face {
+  font-family: SFUIDisplay-Medium;
+  src: url("fonts/SFUIText/SF-UI-Text-Regular.otf");
+}
+
+@font-face {
+  font-family: SFUIDisplay-Light;
+  src: url("fonts/SFUIText/SF-UI-Text-Light.otf");
+}
+
+@font-face {
+  font-family: SFUIDisplay-Heavy;
+  src: url("fonts/SFUIText/SF-UI-Text-Heavy.otf");
+}
+
+@font-face {
+  font-family: SFUIText-Regular;
+  src: url("fonts/SFUIText/SF-UI-Text-Regular.otf");
+}
+
+@font-face {
+  font-family: SFUIText-Medium;
+  src: url("fonts/SFUIText/SF-UI-Text-Medium.otf");
+}
+
+@font-face {
+  font-family: SFUIText-Semibold;
+  src: url("fonts/SFUIText/SF-UI-Text-Semibold.otf");
+}
+
+@font-face {
+  font-family: SFUIText-Bold;
+  src: url("fonts/SFUIText/SF-UI-Text-Bold.otf");
+}
+
+@font-face {
+  font-family: HelveticaNeueLTStd-Bd;
+  src: url("fonts/Universal/Universe%20-%20HelveticaNeueLTStd-Bd.otf");
+}
+
+@font-face {
+  font-family: HelveticaNeueLTStd-BdEx;
+  src: url("fonts/Widespace/Universe%20-%20HelveticaNeueLTStd-BdEx.otf");
+}
+
+@font-face {
+  font-family: HelveticaNeueLTStd-BdExO;
+  src: url("fonts/Widespace/Universe%20-%20HelveticaNeueLTStd-BdExO.otf");
+}
+
+@font-face {
+  font-family: HelveticaNeueLTStd-BdIt;
+  src: url("fonts/Universal/Universe%20-%20HelveticaNeueLTStd-BdIt.otf");
+}
+
+@font-face {
+  font-family: HelveticaNeueLTStd-Blk;
+  src: url("fonts/Heavy/Universe%20-%20HelveticaNeueLTStd-Blk.otf");
+}
+
+@font-face {
+  font-family: HelveticaNeueLTStd-BlkIt;
+  src: url("fonts/Heavy/Universe%20-%20HelveticaNeueLTStd-BlkIt.otf");
+}
+
+@font-face {
+  font-family: HelveticaNeueLTStd-Hv;
+  src: url("fonts/Heavy/Universe%20-%20HelveticaNeueLTStd-Hv.otf");
+}
+
+@font-face {
+  font-family: HelveticaNeueLTStd-HvEx;
+  src: url("fonts/Widespace/Universe%20-%20HelveticaNeueLTStd-HvEx.otf");
+}
+
+@font-face {
+  font-family: HelveticaNeueLTStd-HvExO;
+  src: url("fonts/Widespace/Universe%20-%20HelveticaNeueLTStd-HvExO.otf");
+}
+
+@font-face {
+  font-family: HelveticaNeueLTStd-HvIt;
+  src: url("fonts/Heavy/Universe%20-%20HelveticaNeueLTStd-HvIt.otf");
+}
+
+@font-face {
+  font-family: HelveticaNeueLTStd-It;
+  src: url("fonts/Universal/Universe%20-%20HelveticaNeueLTStd-It.otf");
+}
+
+@font-face {
+  font-family: HelveticaNeueLTStd-Roman;
+  src: url("fonts/Universal/Universe%20-%20HelveticaNeueLTStd-Roman.otf");
+}
+
+@font-face {
+  font-family: HelveticaNeueLTStd-BdOu;
+  src: url("fonts/Outline/Universe%20-%20HelveticaNeueLTStd-BdOu.otf")
+}
+
+@font-face {
+  font-family: SFMono-Regular;
+  src: url("fonts/SFMono/SFMono-Regular.otf")
+}
+
+@font-face {
+  font-family: AlfaSlabOne-Regular;
+  src: url("fonts/Chunky/AlfaSlabOne-Regular.ttf")
+}
+
+@font-face {
+  font-family: KumarOne-Regular;
+  src: url("fonts/Angular/KumarOne-Regular.ttf")
+}
+
+@font-face {
+  font-family: Monoton-Regular;
+  src: url("fonts/Lines/Monoton-Regular.ttf")
+}
+
+@font-face {
+  font-family: KumarOneOutline-Regular;
+  src: url("fonts/AngularOutline/KumarOneOutline-Regular.ttf")
+}
+
+@font-face {
+  font-family: Nunito-ExtraBold;
+  src: url("fonts/Rounded/Nunito-ExtraBold.ttf")
+}
+
+@font-face {
+  font-family: Shrikhand-Regular;
+  src: url("fonts/Morning/Shrikhand-Regular.ttf")
+}
+
+@font-face {
+  font-family: YatraOne-Regular;
+  src: url("fonts/Gesture/YatraOne-Regular.ttf")
+}
+
+@font-face {
+  font-family: Macondo-Regular;
+  src: url("fonts/ArtNouveau/Macondo-Regular.ttf")
+}
+
+@font-face {
+  font-family: RozhaOne-Regular;
+  src: url("fonts/Espresso/RozhaOne-Regular.ttf")
+}
+
+#__next {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.clickable.text .link-indicator {
+  content: '';
+  background: url('link-arrow-light.png') no-repeat center;
+  background-size: cover;
+  position:absolute;
+  width: 22px;
+  height: 22px;
+  top: 12px;
+  right: 11px;
+  opacity: 0;
+  transition: all .16s ease-in-out;
+  -moz-transition: all .16s ease-in-out;
+  -webkit-transition: all .16s ease-in-out;
+}
+
+.clickable.text.dark .link-indicator {
+  background: url('link-arrow-dark.png') no-repeat center;
+  background-size: cover;
+}
+
+.clickable.text:hover .link-indicator {
+  display: block;
+  top: 6px;
+  right: 5px;
+  opacity: 1;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  transition: all 0.5s;
+}
+
+/* remove default link styles */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+/* Make clicks pass-through */
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  background: #fff;
+
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 2px;
+}
+
+/* Fancy blur effect */
+#nprogress .peg {
+  display: block;
+  position: absolute;
+  right: 0px;
+  width: 100px;
+  height: 100%;
+  opacity: 1.0;
+
+  -webkit-transform: rotate(3deg) translate(0px, -4px);
+      -ms-transform: rotate(3deg) translate(0px, -4px);
+          transform: rotate(3deg) translate(0px, -4px);
+}
+
+/* Remove these to get rid of the spinner */
+#nprogress .spinner {
+  display: block;
+  position: fixed;
+  z-index: 1031;
+  top: 15px;
+  right: 15px;
+}
+
+#nprogress .spinner-icon {
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
+
+  border: solid 2px transparent;
+  border-top-color: #29d;
+  border-left-color: #29d;
+  border-radius: 50%;
+
+  -webkit-animation: nprogress-spinner 400ms linear infinite;
+          animation: nprogress-spinner 400ms linear infinite;
+}
+
+.nprogress-custom-parent {
+  overflow: hidden;
+  position: relative;
+}
+
+.nprogress-custom-parent #nprogress .spinner,
+.nprogress-custom-parent #nprogress .bar {
+  position: absolute;
+}
+
+@-webkit-keyframes nprogress-spinner {
+  0%   { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes nprogress-spinner {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loader {
+  position: absolute;
+  margin: 0 auto;
+  width: 100px;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+}
+.loader:before {
+  content: '';
+  display: block;
+  padding-top: 100%;
+}
+.circular {
+  animation: rotate 2s linear infinite;
+  height: 100%;
+  transform-origin: center center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.path {
+  stroke-dasharray: 1, 200;
+  stroke-dashoffset: 0;
+  animation: dash 2s ease-in-out infinite;
+  stroke: #000;
+  stroke-linecap: round;
+}
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -35px;
+  }
+  100% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -124px;
+  }
+}
+
+@media(max-width: 414px) {
+  .clickable.text .link-indicator, .clickable.text:hover .link-indicator {
+    opacity: 1;
+    width: 15px;
+    height: 15px;
+    top: 4px;
+    right: 4px;
+  }
+}
+
+/* BRAND STICKER STYLES */
+.brand-sticker {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  z-index: 1000;
+  margin: 64px auto 32px auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: drop-shadow(0 1px 1px rgba(0,0,0,0.3));
+  filter: drop-shadow(0 1px 1px rgba(0,0,0,0.3));
+}
+
+.brand-sticker .inner {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.brand-sticker:hover {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 800px) {
+  .brand-sticker {
+    position: fixed;
+    right: 14px;
+    left: auto;
+    bottom: 14px;
+    margin: 0;
+  }
+}
+
+/* Standard */
+.brand-sticker.standard {
+  border-radius: 4px;
+  background-image: url('stickers/BrandSticker-Standard.svg');
+  transition: 0.15s width ease-in-out 0.1s, 0.08s transform ease-in-out;
+  z-index: 2;
+}
+
+.brand-sticker.standard.touch-down {
+  -webkit-transform: scale(0.98);
+  -moz-transform:    scale(0.98);
+  -ms-transform:     scale(0.98);
+  transform:         scale(0.98);
+}
+
+.brand-sticker.standard.open {
+  width: 210px;
+}
+
+@media only screen and (min-width: 800px) {
+  .brand-sticker.standard.open {
+    width: 210px;
+    cursor: pointer;
+    transition: 0.15s width ease-in-out, 0.08s transform ease-in-out;
+  }
+}
+
+/* Wheel */
+.brand-sticker.wheel {
+  width: 58px;
+  height: 58px;
+  transition: transform 0.2s;
+  transform: rotateZ(0deg);
+}
+
+.brand-sticker.wheel:hover .inner, .brand-sticker.wheel:active .inner {
+  transform: scale(0.98);
+}
+
+.brand-sticker.wheel .inner .shape {
+  width: 100%;
+  height: 100%;
+  background-image: url('stickers/BrandSticker-Wheel.svg');
+  background-size: cover;
+  transition: transform 0.15s;
+  animation: sticker-rotate-z infinite 10s forwards linear;
+}
+
+@keyframes sticker-rotate-z {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(-360deg);
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .brand-sticker.wheel .inner {
+    transition: 0.3s transform ease-in-out;
+    transform: rotateZ(-180deg);
+  }
+
+  .brand-sticker.wheel .inner .shape{
+    animation-play-state: paused;
+  }
+
+  .brand-sticker.wheel:hover .inner, .brand-sticker.wheel:active  .inner{
+    transform: rotateZ(40deg) scale(0.98);
+  }
+
+  .brand-sticker.wheel:hover .inner .shape, .brand-sticker.wheel:active .inner .shape{
+    animation-play-state: running;
+  }
+}
+
+/* Tumble */
+.brand-sticker.tumble {
+  width: 58px;
+  height: 58px;
+}
+.brand-sticker.tumble .inner {
+  background-image: url('stickers/BrandSticker-Tumble.svg');
+  transition: transform 0.2s;
+}
+.brand-sticker.tumble:hover .inner, .brand-sticker.tumble:active .inner{
+  transform: rotateZ(10deg) scale(0.98);
+}
+
+/* Wavy */
+.brand-sticker.wavy {
+  width: 80px;
+  height: 38px;
+}
+.brand-sticker.wavy .inner {
+  background-image: url('stickers/BrandSticker-Wavy.svg');
+  transition: transform 0.2s;
+  -webkit-transition-timing-function: cubic-bezier(0.295, 0.350, 0.190, 1); /* older webkit */
+  -webkit-transition-timing-function: cubic-bezier(0.295, 0.350, 0.190, 1.445);
+     -moz-transition-timing-function: cubic-bezier(0.295, 0.350, 0.190, 1.445);
+       -o-transition-timing-function: cubic-bezier(0.295, 0.350, 0.190, 1.445);
+          transition-timing-function: cubic-bezier(0.295, 0.350, 0.190, 1.445);
+}
+.brand-sticker.wavy:hover .inner, .brand-sticker.wavy:active .inner{
+  transform: scaleX(1.3);
+}
+@media only screen and (min-width: 800px) {
+  .brand-sticker.wavy .inner {
+    transform-origin: center right;
+  }
+}
+
+/* Tablet */
+.brand-sticker.tablet {
+  width: 52px;
+  height: 66px;
+}
+.brand-sticker.tablet .inner {
+  background-image: url('stickers/BrandSticker-Tablet.svg');
+  transition: opacity 0.2s;
+}
+.brand-sticker.tablet:hover .inner, .brand-sticker.tablet:active .inner {
+  /*transform: scale(0.98);*/
+  opacity: 0.8;
+}
+
+/* technical */
+.brand-sticker.technical {
+  width: 114px;
+  height: 28px;
+}
+.brand-sticker.technical .inner {
+  background-image: url('stickers/BrandSticker-Technical.svg');
+  transition: opacity 0.2s;
+}
+.brand-sticker.technical:hover .inner, .brand-sticker.technical:active .inner {
+  opacity: 0.8;
+}
+
+/* follow */
+.brand-sticker.follow {
+  width: 117px;
+  height: 40px;
+}
+.brand-sticker.follow .inner {
+  background-image: url('stickers/BrandSticker-Follow.svg');
+  transition: opacity 0.2s;
+}
+.brand-sticker.follow:hover .inner, .brand-sticker.follow:active .inner {
+  opacity: 0.8;
+}
+
+
+/* MAP BLOCK */
+div.mapboxgl-control-container {
+  display: none !important;
+}
+/* hide missing css message */
+.mapboxgl-missing-css {
+  display: none !important;
+}
+.mapboxgl-map .marker {
+  background-image: url('mapBlockPin.svg');
+  background-size: contain;
+  width: 30px;
+  height: 54px;
+}
+
+/* Hide the toolbar for ImageBlock lightbox. */
+.ril-toolbar {
+  background-color: rgba(0,0,0,0) !important;
+}
+.ril__toolbar {
+  background-color: rgba(0,0,0,0) !important;
+}
