@@ -5,6 +5,14 @@
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
 
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
 /* Full-width input fields */
 input[type=text], input[type=password] {
     width: 100%;
@@ -127,6 +135,26 @@ span.psw {
 </head>
 <body>
 
+<video autoplay muted loop id="myVideo">
+  <source src="https://onuniverse-assets.imgix.net/15CF0437-F5AF-4244-B371-D03CF80FA94A.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
 <h1>JESUS SUCKS DICK</h1>
 
 <p>gayyyyyyyyy.</p>
@@ -172,8 +200,6 @@ window.onclick = function(event) {
     }
 }
 </script>
-
-<div><div id="__next"><div data-reactroot=""><div style="min-height:100vh;min-width:100vw"><div class="css-16gept2"><div><video playsinline="" autoplay="" loop="" type="video/mp4" width="100%" src="https://onuniverse-assets.imgix.net/15CF0437-F5AF-4244-B371-D03CF80FA94A.mp4" poster="https://onuniverse-assets.imgix.net/B65B5572-8B08-449C-AA27-1D7ABA273075.jpg?q=10" class="css-76ctif"></video></div></div></div></div></div><div id="__next-error"></div></div><script src="/static/analytics.js"></script>
 
 </body>
 </html>
