@@ -1,4 +1,100 @@
-<script>
+<html><head>
+  <script src="https://cdn.scaledrone.com/scaledrone.min.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <style>
+    html {
+      height: 100%;
+    }
+    body {
+      margin: 0;
+      padding: 0 40px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      background: rgba(99,99,191,.07);
+
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    .input-area {
+      display: flex;
+      flex-direction: column;
+      border-bottom: 1px solid rgba(99,99,191,0.25);
+      padding-bottom: 40px;
+      margin-bottom: 40px;
+      width: 100%;
+      max-width: 700px;
+    }
+    textarea {
+      background: white;
+      margin-bottom: 20px;
+      padding: 20px;
+      font-size: 15px;
+      border-radius: 12px;
+      border: none;
+      outline: none;
+      border-bottom: 3px solid rgba(99,99,191,0.25);
+      resize: none;
+      flex-shrink: 0;
+    }
+    button {
+      padding: 15px;
+      background: white;
+      border: none;
+      font-size: 17px;
+      border-radius: 12px;
+      cursor: pointer;
+      outline: none;
+      border-bottom: 3px solid rgba(99,99,191,0.25);
+      flex-shrink: 0;
+    }
+    button:hover {
+      background: rgba(99, 99, 191, 0.06);
+    }
+    button:active {
+      background: rgba(99, 99, 191, 0.10);
+    }
+    .info {
+      margin: 20px;
+      color: #6363bf;
+    }
+    .feed {
+      width: 100%;
+      max-width: 700px;
+    }
+    .feed-item {
+      background: white;
+      margin-bottom: 20px;
+      padding: 20px;
+      font-size: 15px;
+      border-radius: 12px;
+      color: black;
+      border-bottom: 3px solid rgba(99,99,191,0.25);
+      white-space: pre;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="info">Open two browser tabs side by side and see the feed updating in real time.</div>
+  <div class="input-area">
+    <textarea rows="6" cols="80" placeholder="Write something to the feed.."></textarea>
+    <button>Send</button>
+  </div>
+  <div class="feed"><div class="feed-item" style="border-bottom-color: rgb(75, 174, 22);">k
+</div><div class="feed-item" style="border-bottom-color: rgb(56, 181, 245);">k
+</div><div class="feed-item" style="border-bottom-color: rgb(239, 88, 53);">test</div><div class="feed-item" style="border-bottom-color: rgb(138, 143, 92);">oooi
+</div><div class="feed-item" style="border-bottom-color: rgb(85, 159, 117);">wefwefwe</div><div class="feed-item" style="border-bottom-color: rgb(168, 125, 97);">dfsdfsd</div><div class="feed-item" style="border-bottom-color: rgb(209, 33, 98);">hfhgcfgh</div><div class="feed-item" style="border-bottom-color: rgb(210, 106, 101);">Lorem Ipsum
+</div><div class="feed-item"> </div><div class="feed-item" style="border-bottom-color: rgb(231, 239, 204);">3</div><div class="feed-item" style="border-bottom-color: rgb(138, 178, 233);">2</div><div class="feed-item" style="border-bottom-color: rgb(75, 110, 87);">1</div><div class="feed-item" style="border-bottom-color: rgb(168, 13, 21);">ds
+</div><div class="feed-item" style="border-bottom-color: rgb(224, 12, 103);">s
+ds
+d</div><div class="feed-item" style="border-bottom-color: rgb(66, 36, 120);">asdsad</div><div class="feed-item" style="border-bottom-color: rgb(60, 138, 164);">Test</div><div class="feed-item" style="border-bottom-color: rgb(55, 205, 42);">hello 1</div><div class="feed-item" style="border-bottom-color: rgb(70, 237, 119);">Yehaa!</div><div class="feed-item" style="border-bottom-color: rgb(183, 247, 45);">😎😱💰</div><div class="feed-item" style="border-bottom-color: rgb(44, 77, 110);">JWT enabled!</div><div class="feed-item" style="border-bottom-color: rgb(124, 100, 125);">Multiline
+History
+Item</div><div class="feed-item" style="border-bottom-color: rgb(197, 134, 204);">First message</div></div>
+  <script>
     window.CHANNEL_ID = 'bBGNiMBc4V6LhsdG';
   </script>
   <script src="client.js"></script>
+
+
+</body></html>
