@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<iframe name="votar" style="display:none;"></iframe>
+<form action="https://on9.000webhostapp.com/insert.php" method="post" target="votar">
+Name:
+<input type="text" name="user">
+Chat:
+<input type="text" name="chat" id="wellreset">
+
+<input type="submit" onclick="setTimeout(myFunction, 1000)" value="Submit" id="submit">
+<script type="text/javascript">
+function myFunction() {
+        var wellreset= document.getElementById('wellreset');
+        wellreset.value= "";
+    }
+</script>
+<br>
+<iframe name= "my_div" src="https://on9.000webhostapp.com/retrieve.php"></iframe>
+</form>
+</body>
+</html> 
