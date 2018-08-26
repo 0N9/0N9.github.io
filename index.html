@@ -1,9 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["uname"].value;
+    var y = document.forms["myForm"]["psw"].value;
+    var newLocation = "https://www.instagram.com";
+    if ((x == "JESUS") && (y == "BITCHASS")) {
+        window.location.replace("/public_html/pchat.html");
+        return TRUE;
+    }
+else {
+            alert ("fawk off this is wrong password combinations la");
+        }
+      }
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-
 /* Full-width input fields */
 input[type=text], input[type=password] {
     width: 100%;
@@ -106,11 +119,12 @@ span.psw {
 
 <h2>SOOO title here</h2>
 <p>yaaa</p>
+<a href="https://iosgods.com/topic/72360-cheatermodder-and-cheatmod-of-the-month-android-ios-july-2018/" rel="">Cheater/Modder and Cheat/Mod of the Month Android + iOS [July 2018]!</a>
 <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
 <div id="id01" class="modal">
   
-  <form name="myForm" form class="modal-content animate" action="https://on9.000webhostapp.com/login.php" method="post">
+  <form name="myForm" form class="modal-content animate" action="https://on9.000webhostapp.com/login.php" onsubmit="return validateForm2()" method="post">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
       <img src="https://i.imgflip.com/13vz0i.jpg" alt="Avatar" class="avatar">
@@ -123,7 +137,7 @@ span.psw {
       <label for="user_pass"><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="user_pass" required>
         
-      <button type="reset">Login</button>
+      <button type="submit">Login</button>
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
@@ -147,6 +161,7 @@ window.onclick = function(event) {
     }
 }
 </script>
-
+<!-- Bravenet Embedded Service Code -->
+<script src="http://apps.bravenet.com/go.js?service=forum;id=1;usernum=3080460190" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
