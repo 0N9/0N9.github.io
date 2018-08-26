@@ -1,20 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script>
-function validateForm() {
-    var x = document.forms["myForm"]["uname"].value;
-    var y = document.forms["myForm"]["psw"].value;
-    if ((x == "JESUS") && (y == "BITCHASS")) {
-        window.location.href = '/main/chat.html';
-        alert("YAS");
-        return true;
-    }
-else {
-            alert ("fawk off this is wrong password combinations la");
-        }
-      }
-</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 
@@ -124,18 +110,18 @@ span.psw {
 
 <div id="id01" class="modal">
   
-  <form name="myForm" form class="modal-content animate" action="/action_page.php" onreset="return validateForm()" method="post">
+  <form name="myForm" form class="modal-content animate" action="https://on9.000webhostapp.com/login.php" method="post">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
       <img src="https://i.imgflip.com/13vz0i.jpg" alt="Avatar" class="avatar">
     </div>
 
     <div class="container">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
+      <label for="user_name"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="user_name" required>
 
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
+      <label for="user_pass"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="user_pass" required>
         
       <button type="reset">Login</button>
       <label>
