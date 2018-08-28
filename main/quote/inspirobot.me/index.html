@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from inspirobot.me/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 28 Aug 2018 09:17:43 GMT -->
+<head>
+<title>InspiroBot</title>
+<meta name="viewport" content="width=device-width , initial-scale=1 , maximum-scale=1.0 , minimum-scale=1.0 , user-scalable=0" />
+<meta charset="UTF-8">
+<link rel="icon" type="image/png" href="website/images/favicon.png" />
+<link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link href="website/css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="website/owl-carousel/owl.carousel.css">
+<link rel="stylesheet" href="website/owl-carousel/owl.theme.css">
+<link href="website/css/bootstrap-switch.min.css" rel="stylesheet">
+<script src="../code.jquery.com/jquery.js"></script>
+<script src="../ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="../maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="website/js/howler.min.js"></script>
+<script src="website/js/main.js"></script>
+<script src="website/owl-carousel/owl.carousel.js"></script>
+<script src="website/js/bootstrap-switch.min.js"></script>
+
+<meta property="og:image" content="http://inspirobot.me/website/images/inspirobot-dark-green.png" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@TheInspiroBot">
+<meta name="twitter:title" content="I Am InspiroBot">
+<meta name="twitter:description" content="I am an artificial intelligence dedicated to generating unlimited amounts of unique inspirational quotes for endless enrichment of pointless human existence.
+">
+<meta name="twitter:image" content="http://inspirobot.me/website/images/inspirobot-dark-green.png" />
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "../connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-65612279-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<div id="inspirobot">
+<nav class="navbar navbar-inverse navbar-static-top">
+<div class="container-fluid">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="index.html">InspiroBot</a>
+</div>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav navbar-left">
+<li><a href="mindfulnessmode.html" class="mindfulnessmode-color">Enter Mindfulness mode</a></li>
+<li><a href="#" class="btn-about"> About </a></li>
+<li><a href="#my-quotes" id="my-quotes-btn" class="scroll-to"> My quotes </a></li>
+<li><a href="#friend-me" class="scroll-to mobile"> Friend me </a></li>
+
+
+
+<li><div id="fboverlay" class="fb-like desktop" data-href="http://facebook.com/InspiroBot" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="top" id="top">
+<div class="generator">
+<div class="generator-sizer-wrapper">
+<div class="generated-sizer">
+</div>
+<div class="generated-bot" id="bot-dark">
+
+<div class="inspirobot-text">
+<h1 style="text-align:center;">I'm InspiroBot. </h1>
+<p style="text-aling:left;" class="inspirobot-text-body"> I am an artificial intelligence dedicated to generating unlimited amounts of unique inspirational quotes for endless enrichment of pointless human existence.</p>
+</div>
+</div>
+<div class="generated-bot" id="bot-bright"></div>
+<img class="generated-image" src="#">
+</div>
+<div class="button-wrapper">
+<div class="btn btn-default btn-generate">
+<div class="btn-background"></div>
+<div class="btn-text">Generate <span class="glyphicon glyphicon-lg glyphicon-repeat"></span></div>
+<div class="btn-text-loading" style="display: none;">Loading...</div>
+</div>
+</div>
+<div class="button-wrapper download-share">
+<div id="share-buttons">
+<a href="#" class="share-on-twitter">
+<img src="website/images/twitter.png" alt="Twitter" />
+</a>
+<a href="#" class="share-on-facebook">
+<img src="website/images/facebook.png" alt="Facebook" />
+</a>
+</div>
+
+<div class="btn fresh btn-print-t-shirt">
+<span class="t-shirt">
+<span class="hidden-xs">Print on t-shirt</span>
+<img class="hidden-xs" src="website/images/icons/tshirt.png">
+<span class="visible-xs">t-shirt <img src="website/images/icons/tshirt.png"></span>
+</span>
+</div>
+<div class="btn  vermillion btn-print-poster">
+<span class="poster">
+<span class="hidden-xs">Print on poster</span>
+<img class="hidden-xs" src="website/images/icons/poster.png">
+<span class="visible-xs">poster <img src="website/images/icons/poster.png"></span>
+</span>
+</div>
+<div class="btn btn-success btn-print-mug">
+<span class="mug">
+<span class="hidden-xs">Print on mug</span>
+<img class="hidden-xs" src="website/images/icons/mug.png">
+<span class="visible-xs">mug <img src="website/images/icons/mug.png"></span>
+</span>
+</div>
+<div class="btn btn-warning btn-print-sticker">
+<span class="sticker">
+<span class="hidden-xs">Print on sticker</span>
+<img class="hidden-xs" src="website/images/icons/sticker.png">
+<span class="visible-xs">sticker <img src="website/images/icons/sticker.png"></span>
+</span>
+</div>
+
+<div class="url-box-wrapper">
+<div class="url-box">
+-
+</div>
+<p style="margin-top: 20px;" id="xmasLine">In the Xmas mood? Visit <a href="http://xmascardbot.com/" target="_blank" class="xmasLink">XmasCardBot.com</a></p>
+</div>
+</div>
+<div class="button-wrapper mindfulnessmode-button">
+<p style="margin-top: 18px; font-size: 20px;">Feeling mindless? Enter <a href="mindfulnessmode.html" class="mindfulnessmode-color">Mindfulness mode</a></p>
+</div>
+</div>
+<div class="vertical-spacer-m"></div>
+</div>
+<div class="my-quotes" id="my-quotes">
+<div class="header">
+My quotes
+</div>
+<div class="owl-wrapper">
+<div id="owl" class="owl-carousel custom-owl">
+</div>
+<div class="owl-button-wrapper">
+<div class="btn btn-default owl-nav-prev"><span class="glyphicon glyphicon-arrow-left"></span> Prev</div>
+<div class="btn btn-default owl-nav-next">Next <span class="glyphicon glyphicon-arrow-right"></span> </div>
+</div>
+</div>
+</div>
+
+
+
+
+
+<div class="become-friend" id="friend-me">
+<div class="text" style="text-align: center;">
+Hello. You can become my friend.
+</div>
+<div class="like-wrapper-outer">
+<div class="like-wrapper-inner">
+<div class="twitter-like-wrapper">
+<a href="https://twitter.com/TheInspiroBot" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @TheInspiroBot</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+<div class="instagram-like-wrapper">
+<style>.ig-b- { display: inline-block; }
+.ig-b- img { visibility: hidden; }
+.ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
+.ig-b-v-24 { width: 137px; height: 24px; background: url(../badges.instagram.com/static/thirdparty/images/badges/ig-badge-view-sprite-24.png/284161441bde.png) no-repeat 0 0; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+.ig-b-v-24 { background-image: url(../badges.instagram.com/static/thirdparty/images/badges/ig-badge-view-sprite-24%402x.png/4dc9b281052c.png); background-size: 160px 178px; } }</style>
+<a href="http://instagram.com/inspirobot.me?ref=badge" target="_blank" class="ig-b- ig-b-v-24"><img src="../badges.instagram.com/static/thirdparty/images/badges/ig-badge-view-24.png/41dd6fb5d8eb.png" alt="Instagram" /></a>
+</div>
+
+<div class="fb-like-wrapper">
+<div class="fb-like" data-href="http://facebook.com/InspiroBot" data-layout="box_count" data-action="like" data-show-faces="false" data-share="true"></div>
+</div></div>
+</div>
+<div class="vertical-spacer-m float-left"></div>
+<div id="myModal" class="modal fade" role="dialog">
+<div class="modal-dialog">
+
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+<h3 class="modal-title"> InspiroBot&#8482 runs on Ethereum. </h3>
+<h4> This is the address to the InspiroBot&#8482 Ethereum wallet. </h4>
+<h4>Please do not send any other currency than Etherum (ETH) to this address.</h4>
+<h4> Thank you. </h4>
+</div>
+<div class="modal-body">
+<div class="QR-wrapper">
+<img class="qr" src="website/images/Etherum_QRcode.png" width="200" height="200" />
+</div>
+</div>
+<div class="modal-footer">
+<p style="text-align: center; font-size: 14px;" id="ETHAddress">0x97336EA775BCA2b10e11559568E8573f9AF68f8E</p>
+<p style="text-align: center; font-size: 14px;">
+<button type="button" class="btn btn-default" onclick="copyETHAddresssToClipboard()">Copy</button>
+</p>
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+
+<!-- Mirrored from inspirobot.me/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 28 Aug 2018 09:17:59 GMT -->
+</html>
