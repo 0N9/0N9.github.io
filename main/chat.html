@@ -1,6 +1,45 @@
 <!DOCTYPE html>
 <html>
+        <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFC0CB;
+}
+
+li {
+    float: left;
+    border-right:1px solid black;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: black;
+}
 <body>
+                <ul>
+  <li><a href="https://0n9.github.io/dashboard.html">Home</a></li>
+  <li><a href="https://0n9.github.io/main/forum.html">FORUM</a></li>
+  <li><a class="active" href="https://0n9.github.io/main/chat.html">CHAT</a></li>
+  <li style="float:right"><a href="http://0n9.github.io/main/quote.html">QUOTE</a></li>
+</ul>
 <iframe name="votar" style="display:none;"></iframe>
 <form action="https://on9.000webhostapp.com/insert.php" method="post" target="votar">
 Name:
